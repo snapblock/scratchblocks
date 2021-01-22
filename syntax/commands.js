@@ -1344,5 +1344,4 @@ module.exports = [
     shape: "boolean",
     category: "obsolete",
   },
-  // TODO define
 ]

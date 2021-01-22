@@ -1,3 +1,6 @@
+// Import functions from packages and other files
+var scratchCommands = require("./commands.js")
+
 function assert(bool, message) {
   if (!bool) throw "Assertion failed! " + (message || "")
 }
@@ -23,14 +26,6 @@ var overrideCategories = [
   "extension",
   "grey",
   "obsolete",
-  "music",
-  "video",
-  "tts",
-  "translate",
-  "wedo",
-  "ev3",
-  "microbit",
-  "makeymakey",
 ]
 var overrideShapes = [
   "hat",
@@ -44,9 +39,6 @@ var overrideShapes = [
 
 // languages that should be displayed right to left
 var rtlLanguages = ["ar", "ckb", "fa", "he"]
-
-// List of commands taken from Scratch
-var scratchCommands = require("./commands.js")
 
 var inputNumberPat = /\%([0-9]+)/
 var inputPat = /(%[a-zA-Z0-9](?:\.[a-zA-Z0-9]+)?)/
