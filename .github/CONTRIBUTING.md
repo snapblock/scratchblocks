@@ -1,1 +1,0 @@
-* Browse to <http://localhost:8000/> to access the development version.
